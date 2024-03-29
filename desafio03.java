@@ -7,7 +7,7 @@ public class Desafio03 {
     	System.out.println("Digite o nome da sua cidade:");
     	String cidade = Scanner.nextLine();
     	
-    	if (cidade.equalsIgnoreCase("curitiba")) {
+    	if (cidade.equals("Curitiba")) {
     		System.out.println("A cidade digitada é Curitiba");
   
     	} else {
